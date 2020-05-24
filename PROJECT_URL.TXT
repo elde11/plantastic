@@ -1,0 +1,27 @@
+GET /categories/ -> list
+POST /categories/ -> create
+GET /categories/:id/ -> retrieve
+PUT /categories/:id/ -> update
+PATCH /categories/:id/ -> partial_update
+DELETE /categories/:id/ -> destroy
+GET /categories/:id/plants/ -> list of Plants
+GET /rooms/ -> list
+POST /rooms/ -> create
+GET /rooms/:id/ -> retrieve
+PUT /rooms/:id/ -> update
+PATCH /rooms/:id/ -> partial_update
+DELETE /rooms/:id/ -> destroy
+GET /rooms/:id/userplants/ -> list of UserPlants
+GET /plants/ -> list
+POST /plants/ -> create
+GET /plants/:id/ -> retrieve
+PUT /plants/:id/ -> update
+PATCH /plants/:id/ -> partial_update
+DELETE /plants/:id/ -> destroy
+GET /plants/:id/userplants/ -> list of UserPlants
+GET /userplants/ -> list
+POST /userplants/ -> create
+GET /userplants/:id/ -> retrieve
+PUT /userplants/:id/ -> update
+PATCH /userplants/:id/ -> partial_update
+DELETE /userplants/:id/ -> destroy
